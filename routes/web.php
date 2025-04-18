@@ -9,6 +9,7 @@ Route::get('/layout', function () {
     return view('layout.layout');
 });
 Route::get('/home', function () {
+    $role = 'Admin';
     return view('home');
 })->name('home');
 Route::get('/about', function () {
