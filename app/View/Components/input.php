@@ -24,6 +24,7 @@ class input extends Component
         $this->name = $name;
         $this->id = $id;
         $this->placeholder = $placeholder;
+        //
     }
 
     /**
